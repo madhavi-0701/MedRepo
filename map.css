@@ -1,0 +1,61 @@
+.maps{
+    background-color: whitesmoke;
+    height: 1120px;
+    margin-bottom: 20px;
+}
+
+.maps h1{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.outer{
+    
+    width: 60%;
+}
+.form{
+    
+    float: right;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+#boxes input{
+    width: 400px;
+    height: 35px;
+}
+#boxes input[type=submit]{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(4, 240, 240);
+    border-color: rgb(202, 200, 200);
+}
+#boxes input[type=submit]:hover{
+    background-color: rgba(2, 8, 59, 0.87);
+    color: white;
+    
+}
+.addinfo{
+    float: left;
+    
+    width: 460px;
+    color: #3f3c3c;
+    margin-top: 30px;
+}
+.addinfo ul li{
+    color: #3f3c3c;
+    display: inline-block;
+}
+.ss1 li a{
+    display: inline-block;
+    height: 30px;
+    width: 35px;
+    font-size: 20px;
+    background-color:rgba(2, 8, 59, 0.87) ;
+    border-radius: 60px;
+    padding-top: 5px; 
+    color: white;
+}
+.addinfo ul li a strong{    
+    color:#3f3c3c;
+    font-size: 19PX; 
+}

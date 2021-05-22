@@ -1,0 +1,57 @@
+header{
+    height: 80px;
+    background-color: whitesmoke;
+    top: 0;
+    position: sticky;
+}
+
+header strong{
+    color: rgba(2, 8, 59, 0.87);
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: bolder;
+}
+header nav ul li{
+    color: rgba(2, 8, 59, 0.87);
+     display:inline-flex;
+     padding-right: 30px;
+    flex-direction: row;
+    height: 68px;
+    margin-top: -15px;
+    padding-top: 8px;
+    
+}
+header nav{
+    float: left;
+}
+header nav ul li a{
+    color:rgba(2, 8, 59, 0.87) ;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+nav ul{
+    float: right;
+    justify-content: space-between;
+    padding-left: 85px;
+}
+nav ul li button{
+    height: 53px;
+    width: 170px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(4, 240, 240) ;
+    color: white;
+    border: transparent;
+}
+#btn:hover{
+    background-color: rgba(2, 8, 59, 0.87);
+}
+
+#top:hover{
+    border-top: 3px solid rgb(4, 240, 240);
+}

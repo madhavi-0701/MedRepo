@@ -1,0 +1,131 @@
+.features1{ 
+    height: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    background-image: linear-gradient(rgba(5, 42, 65, 0.75),rgba(5, 42, 65, 0.75)), url(https://wallpapercave.com/wp/wp2968489.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 960px;
+    width: 100%;
+}
+
+.cont1{
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    float: left;
+    margin-top: 30px;
+    margin-left: 260px;
+}
+#p1{
+    color: rgb(4, 240, 240);
+    font-size: 14px;
+    font-weight: 550;
+    text-align: left;
+}
+#p2{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 540;
+    
+}
+.cont2{
+    
+    width: 550px;
+    
+    float: right;
+    padding-top: 30px;
+    margin-top: 70px;
+    margin-right: 170px;
+}
+#p3{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+.list li .fa{
+    font-size: 30px;
+    color:rgb(4, 240, 240);
+   
+}
+.l1{
+    float: left;
+    margin-left: -35px;
+}
+.l2{
+    float: right;
+    margin-right: 60px;
+}
+.cards{
+    float: right;
+    display: flex;
+    margin-right: 20px;
+}
+.cards li{
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    height: 440px;
+    width: 330px;
+    margin-right: 14px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: 80px;
+    transition:  0.7s;
+}
+.in{
+    
+    width:330px ;
+    height: 386px;
+    margin-top: 27px;
+    
+    
+}
+.num{
+    font-size: 110px;
+    color: hsl(0, 3%, 77%);
+    padding-left: 80px;
+}
+#icons{
+    font-size: 80px;
+    padding-left:35px ;
+    color: rgba(2, 8, 59, 0.87);
+}
+#head{
+    padding-left:20px ;
+    text-transform: capitalize;
+    color: rgba(2, 8, 59, 0.87);
+}
+#p4{
+    color: grey;
+    font-size: 17px;
+    padding-left: 20px;
+    font-weight: 540;
+}
+.botl{
+    color:rgba(2, 8, 59, 0.87) ;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards li:hover{
+    transform: translateY(-25px);
+}
+.cards li:hover #icons{
+    color: rgb(4, 240, 240);
+}
+
+
